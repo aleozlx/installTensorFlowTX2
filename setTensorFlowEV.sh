@@ -10,7 +10,7 @@ sudo mkdir /usr/lib/aarch64-linux-gnu/include/
 sudo cp /usr/include/cudnn.h /usr/lib/aarch64-linux-gnu/include/cudnn.h
 # Setup the environment variables for configuration
 # PYTHON Path is the default
-default_python_bin_path=$(which python)
+default_python_bin_path=$(which python3)
 PYTHON_BIN_PATH=$default_python_bin_path
 # No Google Cloud Platform support
 TF_NEED_GCP=0
@@ -27,7 +27,8 @@ TF_CUDA_VERSION=8.0
 default_cuda_path=/usr/local/cuda
 CUDA_TOOLKIT_PATH=$default_cuda_path
 # cuDNN
-TF_CUDNN_VERSION=5.1.10
+#TF_CUDNN_VERSION=5.1.10
+TF_CUDNN_VERSION=6.0.21
 default_cudnn_path=/usr/lib/aarch64-linux-gnu
 CUDNN_INSTALL_PATH=$default_cudnn_path
 # CUDA compute capability
