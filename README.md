@@ -3,7 +3,7 @@ Aug 11, 2017
 Install TensorFlow v1.0.1 on NVIDIA Jetson TX2 Development Kit
 
 Jetson TX2 is flashed with JetPack 3.1 which installs:
-* L4T 27.1 an Ubuntu 16.04 64-bit variant (aarch64)
+* L4T 28.1 an Ubuntu 16.04 64-bit variant (aarch64)
 * CUDA 8.0
 * cuDNN 6.0.21
 
